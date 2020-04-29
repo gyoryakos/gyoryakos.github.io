@@ -1,0 +1,17 @@
+.container{
+    width: 264px;
+}
+
+.asteroid-b326, #b325{
+    border: 1px solid green;
+    width: 264px;
+}
+
+.asteroid-big, .asteroid-b329-big{
+    color: blue;
+    width: 264px;
+}
+
+.asteroid-big{
+    background: yellow;
+}
