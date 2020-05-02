@@ -1,0 +1,15 @@
+p{
+    width: 20%;
+    padding: 20px;
+    margin: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.top-segment{
+    border-top: 2px solid black;
+}
+
+p:hover {
+    background-color:   coral;
+}
