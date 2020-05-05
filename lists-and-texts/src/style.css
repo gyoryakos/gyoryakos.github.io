@@ -1,0 +1,41 @@
+main{
+  margin: 10px;
+  font-family: 'Georgia';
+}
+
+h1 {
+  color: #E67676;
+  /*font-family: sherif;*/
+}
+
+h2 {
+  color: purple;
+  /*font-family: sherif;*/
+}
+
+p{
+  width: 450px;
+  /*6*/font-family: sherif;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.one{
+  color = white;
+}
+
+.redText
+{
+  color: magenta;
+}
+
+.underText
+{
+  text-decoration: underline;
+}
