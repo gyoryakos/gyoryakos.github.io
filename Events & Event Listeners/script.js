@@ -14,7 +14,13 @@ $('#button-3').click(() => {
    $("button").css("border-radius", "5px");
 });
 
+let clicks = 0;
+
 $('#button-4').click(() => {
-    $('button').css('background', document.getElementById("color").value    );
+    if(clicks === 0)
+    {   
+        clicks++;
+        $('button').css('background', document.getElementById("color").value);
+    }
  });
  
