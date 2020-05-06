@@ -13,3 +13,8 @@ $('#button-3').click(() => {
    $("button").css("border", "0");
    $("button").css("border-radius", "5px");
 });
+
+$('#button-4').click(() => {
+    $('button').css('background', document.getElementById("color").value    );
+ });
+ 
