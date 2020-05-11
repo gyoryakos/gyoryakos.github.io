@@ -1,0 +1,181 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans' ;
+  font-size: 15px;
+}
+
+body {
+  background: lightskyblue;
+}
+
+h1, h2 {
+  margin: auto;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cim {
+  width: 600px;
+  padding: 25px;
+  margin: 30px 0 30px;
+  font-size: 30px;
+  color: #cccccc;
+  text-shadow: -5px 3px 5px #444444;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: -30px 15px 40px rgba(0,0,0,0.3);
+  background-color: lightslategrey;
+}
+
+.listContainer {
+  background: red;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -30px 15px 40px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.inputContainer{
+  display: flex;
+}
+
+.listHeader {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  font-size: 25px;
+  color: #cccccc;
+  text-shadow: -5px 3px 5px #444444;
+  margin-bottom: 5px;
+  border-radius: 8px 8px 0 8px;
+}
+
+.listInput {
+  display: flex;
+  width: 100%;
+}
+
+.inContainer {
+  display: flex;
+  background: lightgray;
+  width: 500%;
+  border-radius: 6px;
+}
+
+#inTodo {
+  border: 1px solid white;
+  width: 70%;
+  background: rgba(255, 255, 255, 0.5);;
+  border-radius: 0px;
+  padding-left: 10px;
+  color: #666666;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#btnTodo {
+  margin-top: 0px;
+  border: none;
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  padding: 5px 10px;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: black;
+  vertical-align: middle;
+}
+
+#btnTodo:hover {
+  background: #28597a;
+  color: #ccc;
+}
+
+#btnTodo:active {
+  background: #1b435e;
+}
+
+.todoItem:hover {
+  transform: scale(1.05);
+  transition-timing-function: linear;
+  transition-duration: 100ms;
+}
+
+#inTodo, #btnTodo {
+  width: 100%;
+  height: 35px;
+}
+
+.todoItem, #btnTodo {
+  cursor: pointer;
+}
+
+.todoItem {
+  display: flex;
+  margin-top: 5px;
+  background: blue;
+  border-radius: 5px;
+}
+
+.item {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.itemText {
+  font-weight: bold;
+  height: 100%;
+  line-height: 30px;
+  padding: 0 8px 0;
+  margin-right: auto;
+  color: #cccccc;
+  text-shadow: 0 0 1px white;
+}
+
+.checked {
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-color: red  ;
+}
+
+.checked .itemText {
+  color: #999999;
+}
+
+.fa-check-circle, .fa-trash-alt {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.fa-check-circle {
+  fill: limegreen;
+  margin-right: 10px;
+}
+
+.fa-check-circle:hover {
+  fill: lightgreen;
+}
+
+.fa-trash-alt {
+  fill: rgb(185, 136, 11);
+}
+
+.fa-trash-alt:hover {
+  fill: rgb(233, 229, 223);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
